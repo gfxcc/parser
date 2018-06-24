@@ -8,9 +8,9 @@
 using namespace std;
 using namespace BUParsing;
 
-int main() {
+int main(int args, char** argv) {
 
-    Parser parser("./bin/rules.txt");
+    Parser parser(argv[1]);
     cout << parser << endl;
 
     string input;
