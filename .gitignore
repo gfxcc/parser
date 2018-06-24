@@ -1,0 +1,7 @@
+
+*.tsk
+
+*/build/
+
+# vscode config file
+*/.vscode/
